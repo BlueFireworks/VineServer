@@ -8,6 +8,6 @@ package vine;
  * 
  * @author Thomas G. P. Nappo
  */
-public interface Address {
+public interface Address extends Creatable {
 
 }

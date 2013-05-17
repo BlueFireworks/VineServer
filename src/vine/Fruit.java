@@ -14,7 +14,7 @@ package vine;
  * 
  * @author Thomas G. P. Nappo
  */
-public interface Fruit {
+public interface Fruit extends Creatable {
 
 	/**
 	 * Returns the address of the current holder of this <tt>fruit</tt>.
