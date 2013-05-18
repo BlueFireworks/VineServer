@@ -2,7 +2,7 @@ package vine;
 
 /**
  * A <tt>fruit</tt> serves to represent a <i>currencial unit</i> of the <a
- * href=http://vinecurrency.com>VineCurrency</a> platform. As such;
+ * href=http://vinecurrency.com>Vine<b>Currency</b></a> platform. As such;
  * <tt>fruit</tt>s do (and <i>should</i>) not entail a particular value in
  * relation to another currency, but rather such should be determined through
  * user interaction with the platform.

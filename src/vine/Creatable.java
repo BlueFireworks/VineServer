@@ -4,7 +4,7 @@ import vine.record.CreationDate;
 
 /**
  * A <tt>creatable</tt> is any type able to be created within the <a
- * href=http://vinecurrency.com>VineCurrency</a> platform.
+ * href=http://vinecurrency.com>Vine<b>Currency</b></a> platform.
  * 
  * <p>
  * Each creatable entails a date of origin (see: {@link #getCreationDate()}).
