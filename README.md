@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://dl.dropboxusercontent.com/u/26438996/vine/logo.png" width=200 height=200>
+  <img src="https://dl.dropboxusercontent.com/u/26438996/vine/logo.png" width=140 height=140>
 </p>
 <p align="center">
   Vine<b>Currency</b> is a crypto-currency in the works.<br />
