@@ -4,6 +4,10 @@ import vine.packet.PacketRepresentation;
 
 public final class HandshakeResponsePacket implements PacketRepresentation {
 
+	public static enum HandshakeResponse {
+		SUCCESS, FAILURE;
+	}
+
 	private final int magic;
 	private final HandshakeResponse handshakeResponse;
 
@@ -11,10 +15,6 @@ public final class HandshakeResponsePacket implements PacketRepresentation {
 			HandshakeResponse handshakeResponse) {
 		this.magic = magic;
 		this.handshakeResponse = handshakeResponse;
-	}
-
-	public static enum HandshakeResponse {
-		SUCCESS, FAILURE;
 	}
 
 	public int getMagic() {

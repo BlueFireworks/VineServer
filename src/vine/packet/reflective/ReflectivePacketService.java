@@ -22,9 +22,9 @@ public final class ReflectivePacketService implements PacketService {
 
 	public ReflectivePacketService() {
 		this(
-				new HashMap<Integer, PacketParser>(MAXIMUM_PACKETS),
+				new HashMap<Integer, PacketParser>(SUGGESTED_MAXIMUM_PACKETS),
 				new HashMap<Class<? extends PacketRepresentation>, PacketBuilder>(
-						MAXIMUM_PACKETS));
+						SUGGESTED_MAXIMUM_PACKETS));
 	}
 
 	@Override

@@ -1,5 +1,7 @@
 package vine.packet;
 
+import java.nio.ByteBuffer;
+
 public final class Packet {
 
 	private final int id;
@@ -33,6 +35,10 @@ public final class Packet {
 	@Override
 	public String toString() {
 		return "Packet (id=" + getID() + ", length=" + getLength() + ")";
+	}
+
+	public ByteBuffer toBuffer() {
+		return ByteBuffer.wrap(data);
 	}
 
 }
