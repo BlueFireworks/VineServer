@@ -14,12 +14,12 @@ public final class VineServer {
 	private static final int DEFAULT_CYCLE_RATE = 1000;
 
 	public static void main(String[] args) {
-		System.out.println(" __     __");
-		System.out.println(" \ \   / /_ __ _   ___");
-		System.out.println("  \ \ / /| | '_ \ / _ \"");
-		System.out.println("   \ V / | | | | | __/");
-		System.out.println("    \_/  |_|_| |_|\___|");
-		System.out.println("- VINE SERVER SOFTWARE -");
+		System.out.println("__      ___            ");
+		System.out.println("\\ \\    / (_)           ");
+		System.out.println(" \\ \\  / / _ _ __   ___ ");
+		System.out.println("  \\ \\/ / | | '_ \\ / _ \\");
+		System.out.println("   \\  /  | | | | |  __/");
+		System.out.println("    \\/   |_|_| |_|\\___|");
 
 		int port = DEFAULT_PORT, cycleRate = DEFAULT_CYCLE_RATE;
 		if (args.length >= 1)
